@@ -1,8 +1,10 @@
 # Data-Driven Set-Theoretic Model Predictive Control
 
 This repository contains the codes for "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control"
-by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html), jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
+
+by [Mehran Attar](https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en) and [Walter Lucia](https://users.encs.concordia.ca/~wlucia/index.html) jointly submitted to IEEE Control Systems Letters (L-CSS) and IEEE Conference on Decision and Control (CDC) 
 [arXiv pre-print link](https://arxiv.org/abs/2303.04749)
+
 
 ### Problem Statement
 Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear model $x_{k+1} = Ax_k + Bu_k + w_k$ with $x_k \in \mathcal{X} \subset \mathbb{R}^n$ and $u_k \in \mathcal{U}\subset \mathbb{R}^m$ and $w_k \in \mathcal{W} \subset \mathbb{R}^n$, with unknown system matrices $(A,B):$
@@ -14,7 +16,7 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 ## Running
 1- Download [CORA release 2022](https://tumcps.github.io/CORA/) and [MPT3 release 2022](https://www.mpt3.org/) 
 
-2- Add CORA and MPT folder and subfolders to the Matlab (in this work, [MATLAB R2021-a has been used](https://www.mathworks.com/products/new_products/release2021a.html)) path.
+2- Add CORA and MPT folder and subfolders to the Matlab (in this work, [MATLAB R2021-a](https://www.mathworks.com/products/new_products/release2021a.html)has been used) path.
 
 3- Add the repo folder and subfolders to the Matlab path.
 
@@ -39,6 +41,6 @@ Given the input-state trajectories $\mathcal{D}=(x,u)$ collected for the linear 
 Run "animated_test.m"
 
 ## Videos
-Check [PreCyse Research Group Youtube channel](https://www.youtube.com/@precysegroup9944)
+Check [Youtube link](https://www.youtube.com/watch?v=BQ3rUl_VqJs)
 
 
